@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Contact.Interface\Contact.Interface.csproj" />
+    <ProjectReference Include="..\CVSRepository\ContactRepository.CVS.csproj" />
+    <ProjectReference Include="..\Repositories\ContactRepository\ContactRepository.csproj" />
+  </ItemGroup>
+
+</Project>

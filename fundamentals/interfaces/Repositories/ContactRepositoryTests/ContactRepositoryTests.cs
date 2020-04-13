@@ -28,8 +28,9 @@ namespace ContactRepository.Tests
         [TestMethod()]
         public void GetContactsTest()
         {
+            // arrange
             // call factory method
-            var repository = RepositoryFactory.GetRepository("Service");          
+            var repository = RepositoryFactory.GetRepository("Service");         
 
             var expected = GetContact();
 
@@ -43,8 +44,8 @@ namespace ContactRepository.Tests
         [TestMethod]
         public void GetContactsCVSTest()
         {
+            // arrange
             var repository = RepositoryFactory.GetRepository("CVS");
-
             var expected = GetContact();
 
             // act
